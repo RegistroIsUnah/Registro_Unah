@@ -1,4 +1,2 @@
 # Registro Unah
-Proyecto Completo del Registro UNAH
-
-.
+Proyecto Completo Registro UNAH
