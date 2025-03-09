@@ -2,5 +2,6 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/regiisva/public_html/
-        - /bin/rsync -av . $DEPLOYPATH                 
+        - /bin/rsync -av --exclude=.git --exclude=.cpanel.yml . $DEPLOYPATH
+       
        
