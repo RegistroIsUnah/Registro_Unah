@@ -2,6 +2,6 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/regiisva/public_html/
-        - /bin/rsync -av /proyecto $DEPLOYPATH                           
+        - /bin/rsync -av proyecto $DEPLOYPATH                           
        
         
